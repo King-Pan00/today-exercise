@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager UI</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="firstproject.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Task Manager</h1>
+
+    <div class="input-row">
+      <input type="text" placeholder="What needs to be done?" />
+      <button class="add-btn">Add Task</button>
+    </div>
+
+    <div class="task-row completed">
+      <div class="icon plain">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <p>Task A</p>
+      <button class="remove-btn">Remove</button>
+    </div>
+
+    <div class="task-row">
+      <div class="icon plain">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <p>Task B</p>
+      <button class="remove-btn">Remove</button>
+    </div>
+
+    <div class="task-row completed">
+      <div class="icon boxed">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <p>Task C</p>
+      <button class="remove-btn">Remove</button>
+    </div>
+  </div>
+</body>
+</html>
