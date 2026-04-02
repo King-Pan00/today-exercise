@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1000vh;
+}
+
+/* Sub header  */
+.sub-header {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1.4;
+}
+span {
+    font-size: 15px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding-left: 25px;
+}
+.nav-container ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+ul li {
+list-style-type: none;
+ }
+
+.nav-container a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+.nav-container a:hover {
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+.second-logo {
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+/* hero section*/
+
+.hero-section {
+    display: flex;
+    margin-top: 250px;
+}
+.content {
+    margin-left: 110px;
+    width: 100%;
+    font-size: 25px;
+    line-height: 1;
+}
+.icon-container {
+    margin-top: 20px;
+}
+.true {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+
+.learning {
+    font-size: 38px;
+    color: red;
+
+}
+.letter2 {
+    font-size: 18px;
+    margin-top: 2rem;
+    line-height: 1.6;
+}
+.true {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-indent: 10px;
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    padding: 15px 25px;
+    background-color: rgb(215, 106, 162);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    color: white;
+}
+.click-container {
+    display: flex;
+    margin-top: 15px;
+    gap: 7px;
+}
+
+/* About Page*/
+.about-page {
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 170px;
+}
+h1 {
+    font-size: 50px;
+}
+.happy-student {
+    line-height: 1.0;
+    margin-left: 140px;
+    margin-bottom: -120px;
+}
+.first-contant {
+   margin-bottom: 20px;
+
+}
+.fouth-contant {
+    display: flex;
+    align-items: center;
+}
+.second-contant {
+    margin-top: 50px;
+    line-height: 1.6;
+}
+.third-contant {
+    margin-top: 50px;
+    line-height: 1.6;
+}
+/*Third section*/
+.second-images {
+    padding: 20px 20px;
+    margin-top: 100px;
+}
+/*fifth-section*/
+.fifth-section {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+div.gallery {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+ justify-content: space-between;
+}
+
+div.gallery-item {
+  margin: 60px 0px;
+  width: 400px;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.price {
+    padding: 20px 0px;
+    text-align: start;
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 500;
+}
+#hi {
+    font-size: 16px;
+}
+.gallery-item {
+    transition: all 0.7s;
+}
+div .gallery-item:hover {
+    transform: scale(1.1);
+}   
+.second-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: -30px;
+}
+
+/*seven container*/
+.seven-container {
+    margin-top: 90px;
+    margin-left: 30px;
+}
